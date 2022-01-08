@@ -1,0 +1,25 @@
+{
+    "name": "c-deg-controller-back",
+    "version": "1.0.0",
+    "description": "Backend de la aplicación controladora de C-deg.",
+    "main": "index.js",
+    "scripts": {        
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "author": "Bartronics Services sas",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "dateformat": "^4.5.1",
+        "express": "^4.17.1",
+        "express-fileupload": "^1.1.6",
+        "express-swagger-generator": "^1.1.15",
+        "jsonwebtoken": "^8.5.1",
+        "md5": "^2.2.1",
+        "moment-timezone": "^0.5.27",
+        "nodemailer": "^6.4.2",
+        "pg": "^7.12.1"
+    },
+    "engines": { "node": "12.x" }
+}
